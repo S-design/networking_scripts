@@ -4,7 +4,7 @@ target_host = "www.google.com"
 target_port = 80
 
 #creating a socket object
-client = socket.socket(socket.AF_INET, socket.Sock_STREAM)
+client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 #connecting to the client
 client.connect((target_host,target_port))
